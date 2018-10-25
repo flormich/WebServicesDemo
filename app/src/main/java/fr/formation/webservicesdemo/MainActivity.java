@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
         try {
             HttpClient httpClient = new HttpClient();
-            httpClient.setAdr("http://alainpre.free.fr/cours/android/ressources/json/pays.json");
+            httpClient.setAdr("http://demo@services.groupkt.com/country/get/all");
             httpClient.setMethod("GET");
             httpClient.start();
             httpClient.join();
