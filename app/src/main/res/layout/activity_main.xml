@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <EditText
+        android:id="@+id/etCodePays"
+        android:layout_width="99dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:inputType="text"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:onClick="searchOne"
+        android:text="Par code"
+        app:layout_constraintBottom_toBottomOf="@+id/etCodePays"
+        app:layout_constraintStart_toEndOf="@+id/etCodePays"
+        app:layout_constraintTop_toTopOf="@+id/etCodePays" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:onClick="searchAll"
+        android:text="Tout"
+        app:layout_constraintBottom_toBottomOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button" />
+
+    <TextView
+        android:id="@+id/tvnom"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="28dp"
+        android:text="Nom du pays : "
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etCodePays" />
+
+    <TextView
+        android:id="@+id/tvPays"
+        android:layout_width="179dp"
+        android:layout_height="42dp"
+        android:text=""
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvnom"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintTop_toTopOf="@+id/tvnom"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ListView
+        android:id="@+id/lvPays"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvnom"
+        app:layout_constraintTop_toBottomOf="@+id/tvnom" />
+
+</android.support.constraint.ConstraintLayout>
