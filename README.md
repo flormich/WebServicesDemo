@@ -12,7 +12,7 @@ Tape the country code and display the country name
 ## 📺 [Picture]
 
 <p align="center">
-Drop down Menu
+Display country
 <br>
 <!-- <img  src="https://github.com/flormich/menu-demo/blob/master/Capture.JPG"> -->
 <br>
