@@ -6,6 +6,14 @@
 
 * Display country names according to their code
 
+## 💻 Installation
+Clone this reposoitory
+
+```
+git clone  https://github.com/flormich/WebServicesDemo
+
+```
+
 ## ✨️ Usage
 Tape the country code and display the country name
 
