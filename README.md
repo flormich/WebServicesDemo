@@ -22,12 +22,11 @@ Tape the country code and display the country name
 <p align="center">
 Display country
 <br>
-<!-- <img  src="https://github.com/flormich/menu-demo/blob/master/Capture.JPG"> -->
+<img  src="https://github.com/flormich/WebServiceDemo/blob/master/WebServicePay.JPG"> -->
 <br>
 <br>
 
 </p>
-
 
 
 
